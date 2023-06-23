@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" type="text/css" href="style-contato.css">
+    </head>
+
+    <div id="logo">
+        <a href="maui.html"><img src="img/logo-maui.png" alt="Logotipo MAUÍ"></a>
+        <h2>Açaí & Surf Food</h2>  
+    </div>
+    <header>
+        <ul> <!--NAVBAR-->
+            <a href="maui.html"><li>HOME</li></a>
+            <a href="contato.html"><li>CONTATO</li></a>
+            <a href="produtos.html"><li>PRODUTOS</li></a>
+        </ul>
+        
+        <div class="nav-line"></div>
+
+    </header>
+    <body>
+        
+    <h1>Formulário de Contato</h1>
+
+    <form action="enviar.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+    </body>
+</html>

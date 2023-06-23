@@ -1,0 +1,157 @@
+@font-face {
+    font-family: monument;
+    src: url(monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: bukhari script;
+    src: url(Open_Sans/Bukhari\ Script.ttf);
+}
+
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #8C52FF;
+}
+
+.navbar {
+    display: block;
+    overflow: hidden; 
+    opacity: .5;
+    transition: 110ms linear;
+    z-index: 1;
+    padding: 0px;
+}
+
+
+ul{
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-family: opensans;
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    align-items: center;
+    padding: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.nav-line {
+    position: fixed;
+    border-top: 3px solid;
+    width: 80% ;
+    opacity: 1;
+    color: #fff;
+    margin: 0 auto;
+    margin-left: 21%;
+}
+.text-box {
+    position: fixed;
+    width: 1350px;
+    height: 720px;
+    left: 775px;
+    bottom: 10px;   
+}
+
+.text-box h3 {
+    color: transparent;
+    position: relative;
+    font-family: monument;
+    font-size: 200px;
+    font-weight: 600;
+    
+}
+
+#sun {
+    position: fixed;
+    background-image: linear-gradient(90deg, #ff66c4, #ffde59);
+    border-radius: 49%;
+    width: 890.6px;
+    height: 890.6px;
+    left: -320px;
+    bottom: -370px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.text-box #first-line {
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #FFDE59; /* cor da borda */
+    text-align: start;
+    top: 0px;
+    left: 0px;
+}
+.text-box #second-line {
+    color: #FFDE59;
+    text-align: center;
+    top: -294px;
+    left: -148px;
+    
+}
+.text-box #third-line {
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #FFDE59; /* cor da borda */
+    text-align: end;
+    top: -587px;
+    left: -298px;
+}
+
+.navbar:hover {
+    background-image: linear-gradient(to left,  #683ebb, #8C52FF);
+    opacity: .8;
+}
+
+.logo img{
+    display: block;
+    position: absolute;
+    max-width: 400px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-left: 1%;
+    z-index: 1;
+}
+
+.logo h2 {
+    font-family: bukhari script;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    position: fixed;
+    padding: 0px;
+    margin-top: 8%;
+    margin-left: 1.6%;
+}
+
+.wave-background {
+    position: fixed;
+    display: block;
+    background-size: cover;
+    opacity: .5;
+    z-index: -1;
+    top: -400px;
+}
+
+.wave-background img {
+    image-rendering: auto;
+}

@@ -1,0 +1,161 @@
+@font-face {
+    font-family: monument;
+        src: url(monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
+}
+@font-face {
+    font-family: opensans;
+        src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: bukhari script;
+        src: url(Open_Sans/Bukhari\ Script.ttf);
+}
+
+
+/*Formatação geral da página*/
+
+body {
+     background-color: #CEA480;
+      color: white;
+       font-family: opensans;
+         margin: 0 auto; 
+          padding: 0; 
+}
+
+header {
+     display: flex;
+      flex-direction: row;
+       justify-content: right;
+        padding: 0px;
+         height: 120px;
+}
+
+#logo {
+    position: absolute;
+     flex-direction: column;
+      line-height: 1px;
+       padding: 22px;
+    
+       
+}
+
+header li {
+    display: inline-flex;
+     font-size: 25px;
+      margin: 60px;
+       margin-top: 20px;
+        margin-right: 100px;
+    color: white;
+     font-weight: bolder;
+}
+
+main {
+    display: flex;
+     flex-direction: column;
+      padding: 0;
+       margin-top: 120px;
+}
+
+aside {
+    position: absolute;
+     display: flex;
+      flex-direction: column;
+       font-size: 18px;
+        margin-left: 30%;
+         margin-top: -175px;
+          font-weight: bolder;
+           justify-content: center;
+}
+.aside-middle {
+    display: inline-flex;
+     flex-direction: row;
+      justify-content: space-between;
+}
+
+#acompanhamentos {
+    margin-left: 10%;
+}
+
+#lista-acompanhamentos {
+    font-size: 13px;
+     margin-left: 15px;
+      margin-top: -10px;
+}
+
+#lista-cremes {
+    margin-left: -133px;
+     margin-top: 85px;
+}
+
+.acomp-section {
+    margin-left: 300px;
+
+}
+
+
+.aside-middle ul {
+    margin-top: 10%;
+}
+
+section {
+    display: flexbox;
+     justify-content: space-between; 
+      padding: 50px; 
+       border-bottom-width: medium;
+       border-bottom-color: white;
+       border-bottom-style: solid ;
+}
+
+.top-section {
+    background-color: #CEA480;
+     color: #221A10;
+}
+
+.middle-section {
+    background-color: #6F3C5E;
+}
+
+.bottom-section {
+    background-color: #E9E2D8;
+     color: #221A10;
+}
+
+/*Formatação geral de textos*/
+
+section h2 {
+    font-family: monument;
+     font-size: 44px;
+      line-height: 5px;
+    margin-top: 39px;
+}
+
+section h3 {
+    font-size: 28px;
+     font-weight: bolder;
+}
+
+aside ul {
+    margin-top: 0;
+     margin-left: -15px;
+      font-weight: bolder;
+}
+
+#logo h2 {
+    font-family: bukhari script;
+     font-size: 30px;
+      font-weight: 100;
+}
+
+.nav-line {
+        position: absolute;
+         background-color: white;
+          height: 3px ;
+           width: 80%;
+            margin-top: 117px;
+}
+
+header:hover {
+    background-image: linear-gradient(to left, #b18e70 ,#CEA480);
+}
+
